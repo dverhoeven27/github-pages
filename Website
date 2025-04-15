@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Chef</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    .experience, .hobbies, .contact, .gallery-section {
+      margin-bottom: 2rem;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .job-period {
+      font-style: italic;
+      color: #666;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+    .gallery img:hover {
+      border-color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio van een Chef</h1>
+    <p>Professioneel, gepassioneerd en toegewijd aan het vak</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Introductie</h2>
+      <p>Welkom op mijn portfolio. Mijn naam is [Jouw Naam], een ambitieuze en gedreven chef met een passie voor koken, leiderschap en continue ontwikkeling. Van leerling tot head chef — mijn reis door de culinaire wereld is er één van toewijding, uitdaging en groei. Hier ontdek je meer over mijn ervaring, inspiratie en toewijding aan het vak.</p>
+    </section>
+
+    <section>
+      <h2>Werkervaring</h2>
+      <div class="experience">
+        <p class="job-title">Head Chef | Secret Garden – Amsterdam</p>
+        <p class="job-period">2024 – heden</p>
+        <p>Begonnen als Junior Souschef, met aanvankelijke twijfels over mijn leeftijd. Binnen zes weken benoemd tot Souschef vanwege bewezen vakmanschap en leiderschap. Mede verantwoordelijk voor de succesvolle opening van <em>Siren Amsterdam</em>. Inmiddels werkzaam als Head Chef, waarbij ik leidinggeef aan het keukenteam, de kwaliteit bewaak en me bezighoud met menuontwikkeling en innovatie. Daarnaast actief betrokken bij het begeleiden van leerling-koks en het afnemen van examens op koksscholen.</p>
+      </div>
+      <div class="experience">
+        <p class="job-title">Head Chef | Land en Zeezicht – Marken</p>
+        <p class="job-period">2019 – 2023</p>
+        <p>Op 18-jarige leeftijd aangesteld als Souschef en na vijf maanden doorgegroeid naar de rol van Head Chef. Gedurende vier jaar heb ik het restaurant culinair en organisatorisch naar een hoger niveau getild. In deze periode heb ik me intensief ontwikkeld als chef en als leidinggevende binnen een professionele keukenbrigade.</p>
+      </div>
+      <div class="experience">
+        <p class="job-title">Keukenmedewerker | The Harbour Club Oost – Amsterdam</p>
+        <p class="job-period">2018 – 2019</p>
+        <p>Werkzaam in een dynamische, high-end horecazaak met een hoog serviceniveau. Hier heb ik waardevolle ervaring opgedaan in organisatie, tempo en kwaliteitsbehoud binnen een veeleisende keukenomgeving.</p>
+      </div>
+      <div class="experience">
+        <p class="job-title">Leerling-kok | Grillrestaurant De Stallen</p>
+        <p class="job-period">Start koksopleiding</p>
+        <p>Mijn professionele carrière begon hier tijdens mijn koksopleiding. De basis van mijn vakmanschap werd gelegd in deze leeromgeving, waar ik de combinatie van theorie en praktijk leerde toepassen in een werkende keuken.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hobby’s & Passies</h2>
+      <div class="hobbies">
+        <p>Naarmate mijn carrière zich ontwikkelt, blijf ik bewust investeren in balans en inspiratie. Zo ben ik regelmatig in de sportschool te vinden — een manier om fysiek en mentaal sterk te blijven binnen het intensieve chef-bestaan.</p>
+        <p>Daarnaast geniet ik van uit eten gaan op hoog niveau. Niet alleen om te ontspannen, maar ook om me culinair te laten inspireren en op de hoogte te blijven van nieuwe trends en smaken.</p>
+        <p>Tot slot hecht ik veel waarde aan quality time met vrienden. Tijd doorbrengen met dierbaren, goede gesprekken en mooie momenten delen vormen voor mij een belangrijk tegenwicht voor het harde werken in de keuken.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>Foto's</h2>
+      <div class="gallery">
+        <a href="https://example.com/full/profielfoto.jpg" target="_blank">
+          <img src="https://example.com/thumb/profielfoto.jpg" alt="Profielfoto">
+        </a>
+        <a href="https://example.com/full/gerecht1.jpg" target="_blank">
+          <img src="https://example.com/thumb/gerecht1.jpg" alt="Gerecht 1">
+        </a>
+        <a href="https://example.com/full/gerecht2.jpg" target="_blank">
+          <img src="https://example.com/thumb/gerecht2.jpg" alt="Gerecht 2">
+        </a>
+      </div>
+      <p><a href="https://example.com/meer-fotos" target="_blank">Bekijk meer foto's</a></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>Geïnteresseerd in een samenwerking of wil je gewoon even kennismaken? Neem gerust contact met mij op:</p>
+        <ul>
+          <li>E-mail: <a href="mailto:chef@example.com">chef@example.com</a></li>
+          <li>Instagram: <a href="https://instagram.com/jouwchefprofiel" target="_blank">@jouwchefprofiel</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/jouwchefprofiel" target="_blank">linkedin.com/in/jouwchefprofiel</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
